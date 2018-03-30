@@ -27,18 +27,18 @@ message-broadcast:
  # Enable message broadcast
  enabled: true
  # Broadcast interval (in seconds)
- time: 15
+ time: 600
  # Command /sendmessage format
  command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
  # Broadcast messages
  messages:
-  - "&e[{TIME}] {PREFIX}&f 1st message"
-  - "&e[{TIME}] {PREFIX}&f 2nd message"
-  - "&e[{TIME}] {PREFIX}&f 3rd message"
+  - "&bXóa sạch túi đồ của bạn bằng lệnh &f/clear"
+  - "&bVote server và nhận quà miễn phí tại &fpri.buycraft.net"
+  - "&fServer đang trong quá trình thử nghiệm"
 # Popup broadcast
 popup-broadcast:
  # Enable popup broadcast
- enabled: true
+ enabled: false
  # Popup broadcast interval (in seconds)
  time: 15
  # Popup duration (in seconds)
