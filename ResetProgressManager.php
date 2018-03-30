@@ -23,9 +23,7 @@ class ResetProgressManager{
 
     public function notifyProgress(string $progress, string $mineName){
         if(isset($this->subscriptions[$mineName])){
-            foreach ($this->subscriptions[$mineName] as $sender){
-                $sender->sendMessage("RESET {$mineName}: {$progress}");
-            }
+            foreach ($this->subscriptions[$mineName] as $sender)
         }
     }
 
