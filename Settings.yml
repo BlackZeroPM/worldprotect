@@ -14,7 +14,7 @@ general:
         active: true # Should we alert players when their inventory is full?
         interval: 5 # Minimum time in seconds between inventory full messages
         message:
-                text: "&bInventory full!" # Message (leave blank to disable)
-                secondary-text: "&7Clear some room in your inventory to keep collecting resources!" # Only used for titles
+                text: "&c&lTÚI ĐẦY!&r" # Message (leave blank to disable)
+                secondary-text: "&eBán đồ bằng lệnh &f/sell all" # Only used for titles
                 type: "title" # Message, tip, popup, title
         sound: true # Play a sound?
