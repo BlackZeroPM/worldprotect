@@ -29,7 +29,7 @@ message-broadcast:
  # Broadcast interval (in seconds)
  time: 600
  # Command /sendmessage format
- command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ command-format: "&f{MESSAGE}"
  # Broadcast messages
  messages:
   - "&bXóa sạch túi đồ của bạn bằng lệnh &f/clear"
@@ -53,7 +53,7 @@ popup-broadcast:
 # Title broadcast
 title-broadcast:
  # Enable title broadcast
- enabled: true
+ enabled: false
  # Title broadcast interval
  time: 30
  # Command /sendtitle format
